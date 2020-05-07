@@ -1,0 +1,8 @@
+---
+- name: Hi
+  hosts: localhost
+  connection: local
+  tasks:
+  - name:
+    shell: "echo {{ MSG }}"
+ 
